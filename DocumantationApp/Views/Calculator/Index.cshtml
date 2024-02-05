@@ -1,0 +1,65 @@
+
+@model CalculatorModel
+
+
+<!--
+<form method="post" class="form">
+    <div class="num1">
+        <label for="Number1">First Number:</label>
+        <input asp-for="Number1" />
+    </div>
+    <div class="num2">
+        <label for="Operation">Operation:</label>
+        <select asp-for="Operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+    </div>
+    <div class="num2">
+        <label for="Number2">Second Number:</label>
+        <input asp-for="Number2" />
+        <span asp-validation-for="Number2"></span>
+    </div>
+    <div class="submit">
+        <input type="submit" value="Calculate" />
+    </div>
+</form>
+-->
+<div class="form">
+    <div class="form-container">
+        <h2>Simple Calculator</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="Number1">First Number:</label>
+                <input asp-for="Number1" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="Operation">Operation:</label>
+                <select asp-for="Operation" class="form-control">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Number2">Second Number:</label>
+                <input asp-for="Number2" class="form-control" />
+                <span asp-validation-for="Number2"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Calculate" class="btn btn-primary" />
+        </form>
+    </div>
+
+    @if (Model.Result != 0)
+    {
+    <div class="result">
+        <h3>Result:</h3>
+        <p>@Model.Result</p>
+    </div>
+    }
+
+</div>
