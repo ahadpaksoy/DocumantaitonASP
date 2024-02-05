@@ -42,5 +42,5 @@ I prepared this project to learn asp.net, for now it is just a simple calculator
 ├── wwwroot\
 │ └── css\
 │ └── site.css\
-├── ...\
+├── ...
 
