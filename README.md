@@ -31,16 +31,16 @@ I prepared this project to learn asp.net, for now it is just a simple calculator
 
 ## Project Structure
 
--DocumatationASP
-├── Models
-│ └── CalculatorModel.cs
-├── Controllers
-│ └── CalculatorController.cs
-├── Views
-│ └── Calculator
-│   └── Index.cshtml
-├── wwwroot
-│ └── css
-│ └── site.css
-├── ...
+-DocumatationASP\
+├── Models\
+│ └── CalculatorModel.cs\
+├── Controllers\
+│ └── CalculatorController.cs\
+├── Views\
+│ └── Calculator\
+│   └── Index.cshtml\
+├── wwwroot\
+│ └── css\
+│ └── site.css\
+├── ...\
 
