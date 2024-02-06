@@ -28,3 +28,4 @@ c:\Users\Ahad Can PAKSOY\OneDrive\Masaüstü\CODING\DocumantaitonASP\Documantati
 c:\Users\Ahad Can PAKSOY\OneDrive\Masaüstü\CODING\DocumantaitonASP\DocumantationApp\obj\Debug\net8.0\DocumantationApp.pdb
 c:\Users\Ahad Can PAKSOY\OneDrive\Masaüstü\CODING\DocumantaitonASP\DocumantationApp\obj\Debug\net8.0\DocumantationApp.genruntimeconfig.cache
 c:\Users\Ahad Can PAKSOY\OneDrive\Masaüstü\CODING\DocumantaitonASP\DocumantationApp\obj\Debug\net8.0\ref\DocumantationApp.dll
+c:\Users\Ahad Can PAKSOY\OneDrive\Masaüstü\CODING\DocumantaitonASP\DocumantationApp\obj\Debug\net8.0\DocumantationApp.sourcelink.json
