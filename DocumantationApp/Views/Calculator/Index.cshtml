@@ -36,6 +36,11 @@
                 <input asp-for="Number1" class="form-control" />
             </div>
             <div class="form-group">
+                <label for="Number2">Second Number:</label>
+                <input asp-for="Number2" class="form-control" />
+                <span asp-validation-for="Number2"></span>
+            </div>
+            <div class="form-group">
                 <label for="Operation">Operation:</label>
                 <select asp-for="Operation" class="form-control">
                     <option value="+">+</option>
@@ -43,11 +48,6 @@
                     <option value="*">*</option>
                     <option value="/">/</option>
                 </select>
-            </div>
-            <div class="form-group">
-                <label for="Number2">Second Number:</label>
-                <input asp-for="Number2" class="form-control" />
-                <span asp-validation-for="Number2"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Calculate" class="btn btn-primary" />

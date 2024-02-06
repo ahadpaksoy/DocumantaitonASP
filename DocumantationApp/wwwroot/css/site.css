@@ -34,3 +34,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.form .form-group .field-validation-error{
+  color: red;
+}
