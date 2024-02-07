@@ -55,7 +55,7 @@ I prepared this project to learn asp.net, for now it is just a simple calculator
     │   ├── DocumantationApp.csproj.nuget.dgspec.json\
     │   ├── DocumantationApp.csproj.nuget.g.props\
     │   ├── DocumantationApp.csproj.nuget.g.targets\
-    │   └── ...
+    │   └── ...\
     ├── Program.cs\
     ├── Properties\\
     ├── Views\
