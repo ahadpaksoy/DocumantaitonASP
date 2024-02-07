@@ -32,16 +32,32 @@ I prepared this project to learn asp.net, for now it is just a simple calculator
 
 ## Project Structure
 
--DocumatationASP\
-├── Models\
-│ └── CalculatorModel.cs\
-├── Controllers\
-│ └── CalculatorController.cs\
-├── Views\
-│ └── Calculator\
-│   └── Index.cshtml\
-├── wwwroot\
-│ └── css\
-│ └── site.css\
-├── ...
+├── README.md\
+└── DocumantationApp\
+    ├── appsettings.Development.json\
+    ├── appsettings.json\
+    ├── bin\
+    │   └── Debug\
+    ├── Controllers\
+    │   ├── CalculatorController.cs\
+    │   └── MenuController.cs\
+    ├── Data\
+    │   └── MenuData.cs\
+    ├── DocumantationApp.csproj\
+    ├── Models\
+    │   ├── CalculatorModel.cs\
+    │   ├── DessertModel.cs\
+    │   ├── DrinkModel.cs\
+    │   ├── ErrorViewModel.cs\
+    │   └── SandwichModel.cs\
+    ├── obj\
+    │   ├── Debug\
+    │   ├── DocumantationApp.csproj.nuget.dgspec.json\
+    │   ├── DocumantationApp.csproj.nuget.g.props\
+    │   ├── DocumantationApp.csproj.nuget.g.targets\
+    │   └── ...
+    ├── Program.cs\
+    ├── Properties\\
+    ├── Views\
+    └── wwwroot\
 
