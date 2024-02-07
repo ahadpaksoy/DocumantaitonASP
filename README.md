@@ -4,7 +4,7 @@ A Simple Calculator App.
 
 ## Overview
 
-I prepared this project to learn asp.net, for now it is just a simple calculator application.
+I prepared this project to learn asp.net, for now it is just a simple calculator application.\
 [02/07/2024 20.35] I added a menu for a coffee shop that has simulated db. I'll add a real db soon.
 
 ## Prerequisites
