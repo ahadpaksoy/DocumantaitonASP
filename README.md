@@ -1,6 +1,6 @@
 # asp.net-discover 🛰️🌌
 
-A Simple Calculator App.
+A Simple Calculator App and A menu for a coffee shop.
 
 ## Overview
 
