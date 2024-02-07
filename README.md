@@ -57,7 +57,7 @@ I prepared this project to learn asp.net, for now it is just a simple calculator
     │   ├── DocumantationApp.csproj.nuget.g.targets\
     │   └── ...\
     ├── Program.cs\
-    ├── Properties\\
+    ├── Properties\
     ├── Views\
-    └── wwwroot\
+    └── wwwroot
 
