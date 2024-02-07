@@ -23,7 +23,7 @@ public class CalculatorController : Controller{
             case "/":
                 if(model.Number2 == 0)
                 {
-                    ModelState.AddModelError("Number2", "Number2 cannot be 0");
+                    ModelState.AddModelError("Number2", "Second number cannot be 0");
                     return View(model);
                 }
                 model.Result = model.Number1 / model.Number2;

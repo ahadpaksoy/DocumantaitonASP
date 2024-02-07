@@ -1,0 +1,25 @@
+@model List<DocumantationApp.Models.DrinkModel>
+
+<h2>Drinks Menu</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Volume</th>
+        <th>Caffeine Content</th>
+        <th>Calories</th>
+    </tr>
+    @foreach (var drink in Model)
+    {
+        <tr>
+            <td>@drink.Name</td>
+            <td>@drink.Description</td>
+            <td>@drink.Price</td>
+            <td>@drink.Volume</td>
+            <td>@drink.CaffeineContent</td>
+            <td>@drink.Calories</td>
+        </tr>
+    }
+</table>

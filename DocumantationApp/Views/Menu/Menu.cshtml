@@ -1,0 +1,48 @@
+
+
+@{
+    ViewBag.Title = "Menu";
+}
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes up the full viewport height */
+            margin: 0; /* Remove default margins */
+        }
+        .menu_wrapper {
+            flex: 1; /* Allow the menu to grow to fill the available space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            margin: auto; /* Center horizontally */
+        }
+        .footer {
+            flex-shrink: 0; /* Prevent the footer from shrinking */
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+
+<div class="menu_wrapper">
+    <h2>Drinks</h2>
+    @foreach (var drink in ViewBag.Drinks)
+    {
+        <div>@($"{drink.Name} - {drink.Description} - {drink.Price}")</div>
+    }
+
+    <h2>Desserts</h2>
+    @foreach (var dessert in ViewBag.Desserts)
+    {
+        <div>@($"{dessert.Name} - {dessert.Description} - {dessert.Price}")</div>
+    }
+
+    <h2>Sandwiches</h2>
+    @foreach (var sandwich in ViewBag.Sandwiches)
+    {
+        <div>@($"{sandwich.Name} - {sandwich.Description} - {sandwich.Price}")</div>
+    }
+</div>
