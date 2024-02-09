@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj": {}
+    "c:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj": {
+    "c:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj",
+        "projectUniqueName": "c:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj",
         "projectName": "DocumantationApp",
-        "projectPath": "C:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj",
+        "projectPath": "c:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\DocumantationApp.csproj",
         "packagesPath": "C:\\Users\\Ahad Can PAKSOY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\obj\\",
+        "outputPath": "c:\\Users\\Ahad Can PAKSOY\\OneDrive\\Masaüstü\\CODING\\DocumantaitonASP\\DocumantationApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

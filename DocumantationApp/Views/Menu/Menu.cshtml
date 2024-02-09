@@ -1,48 +1,47 @@
-
-
 @{
-    ViewBag.Title = "Menu";
+  ViewBag.Title = "Menu";
 }
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensure the body takes up the full viewport height */
-            margin: 0; /* Remove default margins */
-        }
-        .menu_wrapper {
-            flex: 1; /* Allow the menu to grow to fill the available space */
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Center vertically */
-            align-items: center; /* Center horizontally */
-            margin: auto; /* Center horizontally */
-        }
-        .footer {
-            flex-shrink: 0; /* Prevent the footer from shrinking */
-            text-align: center;
-            padding: 20px;
-            background-color: #f0f0f0;
-            border-top: 1px solid #ccc;
-        }
-    </style>
 
-<div class="menu_wrapper">
-    <h2>Drinks</h2>
-    @foreach (var drink in ViewBag.Drinks)
-    {
-        <div>@($"{drink.Name} - {drink.Description} - {drink.Price}")</div>
-    }
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <h2>Desserts</h2>
-    @foreach (var dessert in ViewBag.Desserts)
-    {
-        <div>@($"{dessert.Name} - {dessert.Description} - {dessert.Price}")</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 py-3">
+      <h2>Menu</h2>
+    </div>
+  </div>
+<!--
+  <div class="row row-cols-1 row-cols-md-3 gx-4">
+    @foreach (var category in new List<string> { "Drinks", "Desserts", "Sandwiches" }) {
+      <div class="col">
+        <h2>@category</h2>
+        <ul class="list-group">
+          @foreach (var item in (category == "Drinks" ? ViewBag.Drinks : category == "Desserts" ? ViewBag.Desserts : ViewBag.Sandwiches)) {
+            @foreach (var item in (category == "Drinks" ? ViewBag.Drinks : category == "Desserts" ? ViewBag.Desserts : ViewBag.Sandwiches)) {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <span class="badge bg-primary rounded-pill">$@item.Price</span>
+                    </div>
+                </div>
+            }
+          }
+        </ul>
+      </div>
     }
-
-    <h2>Sandwiches</h2>
-    @foreach (var sandwich in ViewBag.Sandwiches)
-    {
-        <div>@($"{sandwich.Name} - {sandwich.Description} - {sandwich.Price}")</div>
-    }
+    
+  </div>
 </div>
+--->
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe1mKYuCWQBsWtI9j5JuipgyfIdZRLn6GfTDlzN1hBwOlBlH7iUChJBo" crossorigin="anonymous"></script>

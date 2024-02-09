@@ -21,21 +21,5 @@ body {
   margin-bottom: 60px;
 }
 
-.form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-
-.form .result{
-  margin-top: 0.3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form .form-group .field-validation-error{
-  color: red;
-}
 
